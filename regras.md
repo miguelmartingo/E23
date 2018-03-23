@@ -1,11 +1,11 @@
 Regras:
 
-<<Modos>>
+Modos
 
 automatico: automatico = 1;
 manual: automatico = 0;
 
-<<Sensores>>
+Sensores
 
 voltagem: volt;
 luminusidade: lum;
@@ -13,7 +13,7 @@ infra-vermelhos: infra;
 temperatura: temp;
 humidade: hum;
 
-<<Atuadores>>
+Atuadores
 
 iluminação: atuador_lum;
 ar condicionado: atuador_temp;
