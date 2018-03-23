@@ -88,7 +88,7 @@ FILE *f;
 char input[100];
 char *token, *aux1, *aux2;
 long mote, volt,light,infra,temp,hum;
-float v_arm[5], l_arm[5], i_arm[5], t_arm[5], h_arm[5];
+float v_arm[4], l_arm[4], i_arm[4], t_arm[4], h_arm[4];
 
 
 while(1)
