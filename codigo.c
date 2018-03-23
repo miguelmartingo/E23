@@ -178,7 +178,7 @@ while(1)
 
 	//<<Sensores>>
 
-	if(mote>=1 && mote<=5)
+	if(mote>=1 && mote<=4)
 	{
 	v_arm[mote-1] = volt;
 	l_arm[mote-1] = light;
@@ -221,7 +221,7 @@ while(1)
 
 
 
-	if(t_arm[mote-1] < 20 || t_arm[mote-1] > 2
+	if(t_arm[mote-1] < 20 || t_arm[mote-1] > 28)
 	{
 		if(mote == 1)
 			sala.temperatura = 1;
@@ -233,7 +233,7 @@ while(1)
 			quarto2.temperatura = 1;
 	}
 
-	if(t_arm[mote-1] >= 20 && t_arm[mote-1] <= 2
+	if(t_arm[mote-1] >= 20 && t_arm[mote-1] <= 28)
 	{
 		if(mote == 1)
 			sala.temperatura = 0;
